@@ -1,0 +1,99 @@
+@font-face {
+  font-family: sansation;
+  src: url("/font/sansation_bold_italic.ttf");
+  src: url("/font/sansation_bold.ttf");
+  src: url("/font/sansation_italic.ttf");
+  src: url("/font/sansation_light_italic.ttf");
+  src: url("/font/sansation_light.ttf");
+  src: url("/font/sansation_regular.ttf");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  font-family: sansation;
+  box-sizing: border-box;
+}
+
+.bg-beige{
+  background-color: #FFB86F;
+}
+
+/*Navbar*/
+nav {
+  background-color: #261132;
+  color: #ffb86f !important;
+}
+nav a {
+  color: #ffb86f !important;
+  text-decoration: none;
+  padding: 10px;
+}
+/*Navbar*/
+
+/*Landing Page*/
+.landingPage {
+  background-color: #261132;
+  color: #ffb86f !important;
+  margin: 0;
+}
+.landingPage .row {
+  margin: 0;
+}
+.logo {
+  height: 40vh;
+  padding: 2% 0 2% 10%;
+  margin: 0;
+  justify-content: end;
+}
+.logoimg {
+  height: 100%;
+}
+.tagline {
+  font-size: 60px;
+}
+.login-modal{
+  background-color: #3E2F5B;
+  border-radius: 35px;
+  padding: 5px;
+}
+/*Landing Page*/
+
+/*Whats new*/
+.carousel {
+  padding: 2rem;
+}
+.carousel-image {
+  height: 50vh;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 15px;
+}
+#carousel-img-1{
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url("/assets/clear.jpg");
+}
+#carousel-img-2{
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url("/assets/term.jpg");
+}
+#carousel-img-3{
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url("/assets/haze.jpg");
+}
+/* .carousel-img {
+  width: 50%;
+  align-self: center;
+} */
+/*Whats new*/
